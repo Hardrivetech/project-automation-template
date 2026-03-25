@@ -1,6 +1,6 @@
 # Project Automation Template
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Hardrivetech/project-automation-template/project-automation.yml?branch=main)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Hardrivetech/VectoraServer/project-automation.yml?branch=main)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 This repository provides a ready-to-use GitHub Actions workflow for automating the creation of issues from a YAML roadmap file and adding them to a GitHub Projects (beta) board with a specified status (e.g., Backlog).
