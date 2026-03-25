@@ -1,0 +1,23 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# VS Code
+.vscode/
+
+# OS
+ehthumbs.db
+Icon?
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+
+# Mac
+.AppleDouble
+.LSOverride

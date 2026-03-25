@@ -1,0 +1,18 @@
+# Example roadmap file for Project Automation Template
+# Add your roadmap items below. Each item will be created as a GitHub issue.
+
+- title: Example Feature
+  body: |
+    This is an example feature for your project roadmap.
+    - Describe the feature
+    - Add acceptance criteria
+  labels:
+    - enhancement
+
+- title: Example Bug
+  body: |
+    This is an example bug for your project roadmap.
+    - Describe the bug
+    - Add steps to reproduce
+  labels:
+    - bug
