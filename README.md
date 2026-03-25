@@ -15,8 +15,8 @@ This repository provides a ready-to-use GitHub Actions workflow for automating t
 ## Usage
 1. **Fork or clone this repository** to your own GitHub account.
 2. **Copy the workflow file** from `.github/workflows/project-automation.yml` into your target repository.
-3. **Create your roadmap file** at `.github/vectora-roadmap.yml` (or update the path in the workflow if needed).
-4. **Set up your GitHub Projects (beta) board** and retrieve the following IDs:
+3. **Create your roadmap file** at `.github/example-roadmap.yml` (or update the path in the workflow if needed).
+5. **Set up your GitHub Projects (beta) board** and retrieve the following IDs:
    - `PROJECT_ID`
    - `STATUS_FIELD_ID`
    - `BACKLOG_OPTION_ID`
@@ -59,9 +59,9 @@ This repository provides a ready-to-use GitHub Actions workflow for automating t
 
    > For more details, see the comments in the workflow file or visit the [GitHub CLI GraphQL docs](https://cli.github.com/manual/gh_api).
 
-5. **Update the workflow file** with your IDs in the `env:` section.
-6. **Create a secret** named `GH_TOKEN` with project write access in your repository settings.
-7. **Push changes** to trigger the workflow.
+6. **Update the workflow file** with your IDs in the `env:` section.
+7. **Create a secret** named `GH_TOKEN` with project write access in your repository settings.
+8. **Push changes** to trigger the workflow.
 
 ## Customization
 - You may freely modify and distribute this workflow.
