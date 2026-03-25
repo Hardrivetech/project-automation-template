@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - '.github/example-roadmap.yml'
+  workflow_dispatch:
 
 jobs:
   create-and-add-to-project:
@@ -16,9 +17,9 @@ jobs:
       - uses: actions/checkout@v3
       - name: Create issues from roadmap
         id: create_issues
-        uses: peter-evans/create-issue-from-file@v4
+        uses: peter-evans/create-issue-from-file@v5
         with:
-          title: ${{ github.event.head_commit.message }}
+          title: ${{ github.event.head_commit.message || 'Automated Issue' }}
           content-filepath: .github/example-roadmap.yml
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Add issues to GitHub Project (beta)
